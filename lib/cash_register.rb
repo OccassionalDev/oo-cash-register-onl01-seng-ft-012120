@@ -11,6 +11,8 @@ class CashRegister
     @total += price*amount
     
     amount.times do 
+      @items.push(item_name)
+    end 
   end 
   
   def apply_discount
