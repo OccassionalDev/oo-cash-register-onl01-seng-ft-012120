@@ -7,5 +7,9 @@ class CashRegister
     @items = []
   end 
   
+  def add_item(item_name, price)
+    @items.push({item_name => price})
+  end 
+  
   
 end 
