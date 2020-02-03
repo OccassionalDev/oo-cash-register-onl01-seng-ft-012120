@@ -14,7 +14,7 @@ class CashRegister
   
   def apply_discount
     if @discount == 0 
-      puts 
+      puts "After the discount, "
     
     @total = (@total * (@discount/100).to_f)
   end 
